@@ -13,8 +13,10 @@
 
         <ImageView
             android:id="@+id/profile_photo"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
+            android:layout_width="215dp"
+            android:layout_height="215dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
             android:scaleType="center"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -22,9 +24,10 @@
 
         <TextView
             android:id="@+id/name"
-            android:layout_width="wrap_content"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Display3"
             app:layout_constraintBottom_toTopOf="@+id/emailLabel"
             app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +39,7 @@
             android:id="@+id/emailLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="352dp"
+            android:layout_marginStart="348dp"
             android:paddingTop="8dp"
             android:text="Email"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
