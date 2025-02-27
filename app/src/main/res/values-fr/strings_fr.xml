@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FancyScreen</string>
+
+    <string name="department">Département</string>
+    <string name="direct_reports">Rapports Directs</string>
+    <string name="email">Email</string>
+    <string name="extension">Extension</string>
+    <string name="supervisor">Superviseur</string>
+
+    <string name="land_department">Département</string>
+    <string name="land_direct_reports">Rapports Directs</string>
+    <string name="land_email">Email</string>
+    <string name="land_extension">Extension</string>
+    <string name="land_supervisor">Superviseur</string>
+</resources>
